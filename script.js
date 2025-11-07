@@ -1,1 +1,10 @@
-
+let drinkName = prompt("What is the drink name?");
+document.getElementById("drinkName").innerHTML = drinkName;
+let size = prompt("What size do you want?");
+document.getElementById("size").innerHTML = size;
+let iceLevel = prompt("What ice level do you want?");
+document.getElementById("iceLevel").innerHTML = iceLevel;
+let sugarLevel = prompt("What sugar level do you want?");
+document.getElementById("sugarLevel").innerHTML = sugarLevel;
+let toppings = prompt("What topping do you want?");
+document.getElementById("toppings").innerHTML = toppings;
